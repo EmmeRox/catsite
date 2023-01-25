@@ -43,3 +43,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.aboutMiko {
+  margin: 15px;
+}
