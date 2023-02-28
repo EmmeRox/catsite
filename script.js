@@ -38,7 +38,13 @@ const closeLunaModal = function () {
   overlay.classList.add("hidden");
 };
 
+const closeMikoModal = function () {
+  modal.classList.add("hidden");
+  overlay.classList.add("hidden");
+};
+
 showMiko.addEventListener("click", openModalM);
 showLuna.addEventListener("click", openModalL);
 
 closeLuna.addEventListener("click", closeLunaModal);
+closeMiko.addEventListener("click", closeMikoModal);
